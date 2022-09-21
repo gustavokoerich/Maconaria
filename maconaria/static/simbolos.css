@@ -1,0 +1,46 @@
+main {
+    margin-top: 6vh;
+    margin-right: 19%;
+    margin-left: 18%;
+   
+   }
+   
+ body {
+   width: 100%;
+   
+}
+
+.titulo-main {
+    margin-bottom: 2.5%;
+}
+
+.titulo-main h1 {
+    font-size: 2em;
+    color: #27107b;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.paragrafo h4 {
+    font-size: 1.3em;
+    color: #27107b;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.paragrafo {
+    margin-bottom: 7%;
+}
+
+.paragrafo img {
+    width: 20%;
+    height: 40%;
+    display: flex;
+    margin-top: 2%;
+}
+
+.imagem-simbolos {
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simbolos da maçonaria</title>
+    <link rel="stylesheet" href="{% static 'simbolos.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+<body>
+    {% include 'partials/nav.html' %}
+    <main>
+        <div class="titulo-main">
+            <h1>Simbologia</h1>
+        </div>
+        <div class="paragrafo">
+            <h4>A Piramide com olho no meio</h4>
+            <div class="texto-imagem">
+                <p>Ele faz referência ao Grande Arquiteto do Universo, aquele ser de natureza onisciente que tudo vê e tudo julga. Originalmente da cultura egípcia.</p>
+                <div class="imagem-simbolos"><img src="{% static 'img/olho-que-tudo-ve-getty.webp' %}" alt=""></div>
+            </div>
+        </div>
+        <div class="paragrafo">
+            <h4>O Esquadro e o Compasso</h4>
+            <div class="texto-imagem">
+                <p>O esquadro pode fazer referência ao quadrado, ao número quatro ou à própria terra. Já o compasso faz referência à imensidão dos céus, ao princípio de unidade e ao círculo. Unidos, esquadro e compasso empregam a função de salientar a importância da associação indispensável e fundamental entre o mundo espiritual e o mundo material.
+                </p>
+                <div class="imagem-simbolos"><img src="{% static 'img/esquadero e compasso.png' %}" alt=""></div>
+            </div>
+        </div>
+        <div class="paragrafo">
+            <h4>A Trolha</h4>
+            <div class="texto-imagem">
+                <p>Essa ferramenta salienta a necessidade de amor e tolerância entre aqueles que estão unidos pelos fundamentos da maçonaria. Na medida em que “perdem” a sua forma de pedra bruta (outro símbolo maçom), os congregados buscam a perfeição entre seus convivas.</p>
+                <div class="imagem-simbolos"><img src="{% static 'img/a trolha.jfif' %}" alt=""></div>
+            </div>
+        </div>
+        <div class="paragrafo">
+            <h4>A Coruja</h4>
+            <div class="texto-imagem">
+                <p>A coruja é considerada a rainha da noite. Em praticamente todas as civilizações, traz o significado de mistério, inteligência, sabedoria e conhecimento. Por ter a característica de enxergar através da escuridão, os gregos a consideravam como símbolo da busca de conhecimento, simbolizando também reflexão, conhecimento intuitivo e racional, já que, para eles, a noite era o momento propício para filosofar.</p>
+                <div class="imagem-simbolos"><img src="{% static 'img/a_coruja-removebg-preview.png' %}" alt=""></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

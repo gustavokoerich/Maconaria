@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f2f5;
+}
+
+main {
+    background-color: #f0f2f5;
+    height: 70vh;
+}
+
+.container-1 {
+    width: 100%;
+    height: 45vh;
+    background: linear-gradient(180deg, #100334 19.27%, #412D7C 99.96%, rgba(31, 17, 71, 0.898352) 99.97%, rgba(154, 132, 215, 0.787227) 99.98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 0.18vh;
+}
+
+.imagem-title {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.container-2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    gap: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #f0f2f5;
+}
+
+.container-2 h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    color: #200e62;
+}
+
+.container-2 p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 35%;
+    height: 25vh;
+    background-color: white;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 a {
+    text-decoration: none;
+    color: #b89246;
+    width: 30%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+.container-2 a:hover {
+    letter-spacing: 1.3px;
+    color: #1f1147e5;
+
+}
